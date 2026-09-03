@@ -1,0 +1,21 @@
+{
+  "temperatura": [
+    "alta",
+    "baja"
+  ],
+  "movimiento": [
+    "si",
+    "no"
+  ],
+  "luz": [
+    "si",
+    "no"
+  ],
+  "ruido": [
+    "alto",
+    "bajo"
+  ]
+}
+
+
+ignorar("ruido");
