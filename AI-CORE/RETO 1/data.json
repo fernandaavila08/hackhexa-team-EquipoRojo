@@ -1,0 +1,18 @@
+[
+  {
+    "emoji": "🙂",
+    "sentiment": "positivo"
+  },
+  {
+    "emoji": "😭",
+    "sentiment": "negativo"
+  },
+  {
+    "emoji": "😡",
+    "sentiment": "negativo"
+  },
+  {
+    "emoji": "😎",
+    "sentiment": "positivo"
+  }
+]
