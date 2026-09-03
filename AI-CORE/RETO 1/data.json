@@ -14,5 +14,13 @@
   {
     "emoji": "😎",
     "sentiment": "positivo"
+  },
+  {
+    "emoji": "😁",
+    "sentiment": "positivo"
+  },
+  {
+    "emoji":"😒",
+    "sentiment": "negativo"
   }
 ]
