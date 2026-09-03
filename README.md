@@ -1,2 +1,3 @@
 # hackhexa-team-EquipoRojo
-Equipo Rojo?
+
+EL MEJOR EQUIPO EVER.
