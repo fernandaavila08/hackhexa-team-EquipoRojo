@@ -4,9 +4,7 @@ Este repositorio contiene los trabajos y evidencias desarrollados por el **Equip
 
 ## Sobre el proyecto
 
-Fox Mission es una misión educativa de tecnología en la que se resuelven distintos retos de manera progresiva. El recorrido incluye las etapas **Sensor Forest**, **Traffic City**, **Code Vault** y **AI Core**, con el objetivo de aplicar conocimientos de programación, análisis de datos, diseño de soluciones e inteligencia artificial.
-
-Los avances pueden consultarse en la plataforma oficial:
+Fox Mission es una misión educativa de tecnología en la que se resuelven distintos retos de manera progresiva. El recorrido incluye las etapas **Sensor Forest**, **Traffic City**, **Code Vault** y **AI Core**.
 
 **[HackHexa: Fox Mission](https://foxmission.foxcoding.com.mx/)**
 
