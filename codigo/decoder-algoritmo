@@ -12,20 +12,18 @@ int main() {
     int posicion;
 
     cout << "======================================" << endl;
-    cout << "        CIFRADO CESAR +1" << endl;
+    cout << "        CIFRADO CESAR" << endl;
     cout << "======================================" << endl;
     cout << "INDICACIONES:" << endl;
     cout << "- Solo puedes escribir letras MAYUSCULAS." << endl;
     cout << "- Para terminar el mensaje escribe el numero 0." << endl;
-    cout << "- Cada letra se cambiara por la siguiente." << endl;
-    cout << "- Z se convierte en A." << endl;
     cout << "======================================" << endl;
 
-    cout << "Escribe tu mensaje: " << endl;
+    cout << "Escribe tu mensaje cifrado: " << endl;
 
     cin >> letra;
 
-    cout << "Mensaje cifrado: ";
+    cout << "Mensaje descifrado : ";
 
     while (letra != '0') {
 
@@ -37,10 +35,10 @@ int main() {
 
         if (posicion < 26) {
 
-            if (posicion == 25) {
-                cout << alfabeto[0];
+            if (posicion == 0) {
+                cout << alfabeto[25];
             } else {
-                cout << alfabeto[posicion + 1];
+                cout << alfabeto[posicion - 1];
             }
 
         } else {
@@ -52,6 +50,8 @@ int main() {
 
     cout << endl;
     cout << "Mensaje terminado." << endl;
+
+
 
     return 0;
 }
