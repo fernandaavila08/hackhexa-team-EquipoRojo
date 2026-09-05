@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
     char alfabeto[] = {
-        'A','B','C','D','E','F','G','H','I','J','K','L','M',
-        'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
-    };
+        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+        'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 
     char letra;
     int posicion;
@@ -27,23 +27,30 @@ int main() {
 
     cout << "Mensaje cifrado: ";
 
-    while (letra != '0') {
+    while (letra != '0')
+    {
 
         posicion = 0;
 
-        while (posicion < 26 && alfabeto[posicion] != letra) {
+        while (posicion < 26 && alfabeto[posicion] != letra)
+        {
             posicion++;
         }
 
-        if (posicion < 26) {
+        if (posicion < 26)
+        {
 
-            if (posicion == 25) {
+            if (posicion == 25)
+            {
                 cout << alfabeto[0];
-            } else {
+            }
+            else
+            {
                 cout << alfabeto[posicion + 1];
             }
-
-        } else {
+        }
+        else
+        {
             cout << "?";
         }
 
